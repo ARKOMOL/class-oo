@@ -1,0 +1,72 @@
+*{margin:0;}
+body{font-family: arial;font-size: 15px;line-height: 25px;color: #333;}
+h1,h2{font-family: arial-black;}
+img{max-width: 100%;border: 1px gray;
+    box-shadow: 0px 2px 8px 2px;}
+i{color: hotpink;font-size: 50px;}
+#serviceblock{ 
+    background: #dddddd;
+width: 331px;
+padding: 20px;
+overflow: hidden;
+display: inline-block;
+border: 1px solid black;
+margin: 7px;
+animation-name: kikormu;
+animation-duration:  1s;
+transition: all 1s;
+}
+#my_service_text{text-align: center;    color: #16d9ab;
+    font-size: 41px;
+    margin-bottom: 30px;
+}
+#my_service_text span{color: #ff69b4f2}
+#rightcontent{width: 250px;
+		float:right
+}
+#leftcontent{
+    width: 70px;
+   float:left;
+   height:118px
+}
+#rightcontent  #leftcontent {display: inline-block;}
+
+div.full_block{margin:auto;width: 1170px;
+}
+
+.servicesection{padding: 43px;
+}
+
+#sectiontitle{background: #4c8cd0;display: inline}
+
+section{    background: #289aac;
+    padding: 25px;
+    overflow: hidden;
+    width: 100%;}
+
+#serviceblock:hover{background:transparent;color:white;cursor:pointer;transform: rotate(360deg);}
+#seamreamrhotedeyna{background-color: #ffffff;}
+
+@keyframes kikormu {
+    from{transform: scale(0.1) }
+    to{transform: scale(0.8)} }
+#aboutright{width: 885px;float: right;}
+#aboutimg{width: 400px;float: left;}
+#aboutright, #aboutimg{display: inline-block;}
+#about_content_all{padding: 30px 0px;height: 300px}
+#aboutright h3{margin-bottom: 25px;
+border-bottom:2px solid #dddddd;
+padding-bottom:10px;font-size: 25px;}
+#aboutright p{font-size: 18px;}
+#serviceblock:hover rightcontent p {transform:scaleX(.7)}
+
+
+nav{background: white;padding:25px 0px;border-bottom: 2px solid orange}
+#logo{float:left;width:170px}
+.menuinner {float:right;width:700px}
+#mainmenu{margin:0;padding:0;list-style:none;float:right}
+ #mainmenu li {display: inline-block;}
+ #mainmenu li a{text-decoration:none;transform:uppercase;color:#1065bfeb;padding:15px 20px;font-size:18px;transition:0.5s}
+ #menudiv{width:1170px;margin:auto;overflow:hidden;}
+
+#mainmenu li a:hover {border-bottom: 2px solid orange}
